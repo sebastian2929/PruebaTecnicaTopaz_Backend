@@ -93,7 +93,7 @@ cd /libros
 ```
 3. Ejecuta el siguiente comando para levantar el contenedor de la base de datos:
 ```
-docker-compose up --build
+docker-compose up -d
 ```
 4. Una vez el contenedor esté corriendo, compila el proyecto Java:
 ```
